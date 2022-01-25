@@ -1,0 +1,20 @@
+.menu-link-mypage {
+  display: inline-block;
+  color: #848484;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.menu-link-mypage::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #916019;
+  transition: width .3s;
+}
+
+.menu-link-mypage:hover::after, .menu-link-mypage:focus::after {
+  width: 100%;
+  color: #916019;
+}

@@ -1,0 +1,8 @@
+@import "../helpers/mixin";
+
+.nav-menu-width-index{
+  width: 100%;
+  @include pad{
+    width: auto;
+  }
+}

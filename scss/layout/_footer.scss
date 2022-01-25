@@ -1,0 +1,15 @@
+@import "../helpers/mixin";
+
+.flex-direction-mobile-320 {
+  flex-direction: column;
+  @include mobile-321 {
+    flex-direction: row;
+  }
+}
+
+.fs-7-footer {
+  font-size: 0.875rem;
+  @include pad {
+    font-size: 1rem;
+  }
+}

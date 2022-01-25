@@ -1,0 +1,24 @@
+@import "../helpers/mixin";
+
+.bg-height-index {
+  height: 480px;
+  display: flex;
+  align-items: center;
+  @include pad{
+    height: 870px;
+  }
+}
+
+.product-height-index{
+  min-height: 350px;
+  @include desktops{
+    min-height: 555px;
+  }
+}
+
+.product-long-height-index{
+  min-height: 680px;
+  @include desktops{
+    min-height: 1080px;
+  }
+}

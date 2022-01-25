@@ -1,0 +1,8 @@
+@import "../helpers/mixin";
+
+.modal-width {
+  width: 50%;
+  @include pad{
+    width: 100%;
+  }
+}
